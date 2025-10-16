@@ -6,8 +6,19 @@
     --bg-image: url("../images/cover-image-dark.png");
     --bg-color: #000028;
     --text-color: #F1B2CE;
+    --design-color: #FF0070;
     --accent-color: #FF0070;
-    --heading-text-color: #DB00FF;
+    --main-heading-text-color: #DB00FF;
+    --heading-text-color: #000028;
     --main-font: IBM Plex Mono, monospace;
     --font-size: 18px;
+    --main-gap: 10px;
+}
+
+@media (width > 768px) {
+
+  :root {
+    --main-gap: 20px;
+  }
+
 }
