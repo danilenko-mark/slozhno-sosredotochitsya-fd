@@ -119,7 +119,7 @@ body {
   margin-bottom: 10px;
 }
 
-.paragraph:last-of-type {
+.paragraph-last {
   margin-bottom: 50px;
 }
 
@@ -232,7 +232,7 @@ body {
     grid-template-columns: 1fr 2fr;
   }
 
-  .paragraph:last-of-type {
+  .paragraph-last {
     margin-bottom: 80px;
   }
 
