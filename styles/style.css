@@ -171,6 +171,10 @@ body {
   gap: 10px;
 }
 
+.description-adaptive h3 {
+    margin-bottom: 10px;
+  }
+
 .images {
   width: 100%;
   height: 100%;
@@ -286,10 +290,6 @@ body {
 
   .h2-title-decor-adaptive {
     margin-bottom: 0;
-  }
-
-  .description-adaptive h3 {
-    margin-bottom: 10px;
   }
 
 }
