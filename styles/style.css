@@ -202,7 +202,7 @@ body {
   line-height: 0.83;
 }
 
-@media (width > 768px) {
+@media (width >= 768px) {
   
   .header {
   min-height: 1024px;
@@ -268,7 +268,7 @@ body {
 
 }
 
-@media (width > 1024px) {
+@media (width >= 1024px) {
   
   .header {
     min-height: 768px;
