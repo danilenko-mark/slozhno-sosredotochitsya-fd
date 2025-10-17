@@ -18,6 +18,10 @@
   --main-heading-text-color: #FFC2E6;
   --heading-text-color: #353430;
 
+  .header__theme-menu-button:hover {
+    border: solid 1px #32312D66;
+  }
+
   .header__rec {
       display: none;
   }
@@ -35,6 +39,10 @@
     --main-heading-text-color: #FFC2E6;
     --heading-text-color: #353430;
 
+  }
+
+  .header__theme-menu-button:hover {
+    border: solid 1px #32312D66;
   }
 
   .header__rec {

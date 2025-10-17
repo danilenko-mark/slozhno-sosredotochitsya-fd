@@ -18,4 +18,12 @@
   --main-heading-text-color: #DB00FF;
   --heading-text-color: #000028;
 
+  .header__theme-menu-button:hover {
+    border: solid 1px #FF007066;
+  }
+
+  .header__rec {
+      display: block;
+  }
+
 }
