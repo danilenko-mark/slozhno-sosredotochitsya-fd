@@ -20,7 +20,8 @@ body {
 
 .header {
   position: relative;
-  height: calc(100vh - 2 * var(--main-gap));
+  height: 100vh;
+  min-height: 668px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 35% 1fr 35%;
@@ -103,13 +104,14 @@ body {
   color: var(--main-heading-text-color);
   align-self: end;
   font-weight: 700;
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--heading-size);
   line-height: 0.83;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
 .header__paragraph {
   align-self: center;
+  background-color: var(--accent-color);
 }
 
 .header__paragraph .paragraph {
@@ -167,6 +169,7 @@ body {
 .s-title-decor {
   font-weight: 400;
   color: var(--heading-text-color);
+  background-color: var(--accent-color);
 }
 
 .title-advise {
@@ -212,7 +215,7 @@ body {
   align-self: center;
   justify-self: center;
   font-weight: 700;
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--heading-size);
   line-height: 0.83;
   text-shadow: 2px 2px 0 var(--accent-color);
 }
@@ -221,6 +224,7 @@ body {
   
   .header {
   grid-template-rows: 45% 1fr 45%;
+  min-height: 1024px;
   }
 
   .main {
@@ -229,16 +233,6 @@ body {
 
   .header__heading {
     margin-left: -20px;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
-
-
-  .footer__heading {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
-
-  .h2-title-decor {
-    width: calc(100vw / 3 - var(--main-gap));
   }
 
   .header__paragraph {
@@ -305,6 +299,7 @@ body {
   
   .header {
     grid-template-rows: 41% 1fr 41%;
+    min-height: 768px;
   }
 
   .header__theme-menu-list {
