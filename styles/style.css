@@ -116,6 +116,7 @@ body {
 
 .header__paragraph .paragraph {
   padding-top: 9px;
+  color: var(--heading-text-color);
 }
 
 .main {
